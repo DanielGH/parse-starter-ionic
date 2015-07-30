@@ -84,6 +84,7 @@ angular.module('starter',
 
             .state('tab.account', {
                 url: '/account',
+                cahce: false,
                 views: {
                     'tab-account': {
                         templateUrl: 'templates/tab-account.html',
